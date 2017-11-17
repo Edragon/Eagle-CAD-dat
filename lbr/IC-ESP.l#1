@@ -3657,7 +3657,6 @@ ALT_UART-IO13, IO15</text>
 <connect gate="G$1" pin="CLK(FLASH_CLK)" pad="31"/>
 <connect gate="G$1" pin="CMD(FLASH_SD2)" pad="30"/>
 <connect gate="G$1" pin="EN" pad="9"/>
-<connect gate="G$1" pin="GND" pad="P$49"/>
 <connect gate="G$1" pin="IO0" pad="23"/>
 <connect gate="G$1" pin="IO12" pad="18"/>
 <connect gate="G$1" pin="IO13" pad="20"/>

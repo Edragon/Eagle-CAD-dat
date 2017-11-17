@@ -2545,7 +2545,6 @@ ALT_UART-IO13, IO15</text>
 <wire x1="33.02" y1="22.86" x2="33.02" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="33.02" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<pin name="GND" x="-10.16" y="27.94" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3638,69 +3637,6 @@ ALT_UART-IO13, IO15</text>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ESP32-PICO">
-<gates>
-<gate name="G$1" symbol="ESP32-PICO" x="-7.62" y="0"/>
-</gates>
-<devices>
-<device name="" package="48P-7X7">
-<connects>
-<connect gate="G$1" pin="CAP1_NC" pad="48"/>
-<connect gate="G$1" pin="CAP2_NC" pad="47"/>
-<connect gate="G$1" pin="CLK(FLASH_CLK)" pad="31"/>
-<connect gate="G$1" pin="CMD(FLASH_SD2)" pad="30"/>
-<connect gate="G$1" pin="EN" pad="9"/>
-<connect gate="G$1" pin="GND" pad="P$49"/>
-<connect gate="G$1" pin="IO0" pad="23"/>
-<connect gate="G$1" pin="IO12" pad="18"/>
-<connect gate="G$1" pin="IO13" pad="20"/>
-<connect gate="G$1" pin="IO14" pad="17"/>
-<connect gate="G$1" pin="IO15" pad="21"/>
-<connect gate="G$1" pin="IO16(FLASH_CS)" pad="25"/>
-<connect gate="G$1" pin="IO17(FLASH_SD0)" pad="27"/>
-<connect gate="G$1" pin="IO18" pad="35"/>
-<connect gate="G$1" pin="IO19" pad="38"/>
-<connect gate="G$1" pin="IO2" pad="22"/>
-<connect gate="G$1" pin="IO21" pad="42"/>
-<connect gate="G$1" pin="IO22" pad="39"/>
-<connect gate="G$1" pin="IO23" pad="36"/>
-<connect gate="G$1" pin="IO25" pad="14"/>
-<connect gate="G$1" pin="IO26" pad="15"/>
-<connect gate="G$1" pin="IO27" pad="16"/>
-<connect gate="G$1" pin="IO32" pad="12"/>
-<connect gate="G$1" pin="IO33" pad="13"/>
-<connect gate="G$1" pin="IO34" pad="10"/>
-<connect gate="G$1" pin="IO35" pad="11"/>
-<connect gate="G$1" pin="IO4" pad="24"/>
-<connect gate="G$1" pin="IO5" pad="34"/>
-<connect gate="G$1" pin="LNA_IN" pad="2"/>
-<connect gate="G$1" pin="SD0(FLASH_SD3)" pad="32"/>
-<connect gate="G$1" pin="SD1(FLASH_SD1)" pad="33"/>
-<connect gate="G$1" pin="SD2/IO9" pad="28"/>
-<connect gate="G$1" pin="SD3/IO10" pad="29"/>
-<connect gate="G$1" pin="SENSOR_CAPN" pad="7"/>
-<connect gate="G$1" pin="SENSOR_CAPP" pad="6"/>
-<connect gate="G$1" pin="SENSOR_VN" pad="8"/>
-<connect gate="G$1" pin="SENSOR_VP" pad="5"/>
-<connect gate="G$1" pin="U0RXD" pad="40"/>
-<connect gate="G$1" pin="U0TXD" pad="41"/>
-<connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
-<connect gate="G$1" pin="VDD3P3_RTC" pad="19"/>
-<connect gate="G$1" pin="VDDA" pad="1"/>
-<connect gate="G$1" pin="VDDA2" pad="43"/>
-<connect gate="G$1" pin="VDDA3" pad="46"/>
-<connect gate="G$1" pin="VDDA3P3_1" pad="3"/>
-<connect gate="G$1" pin="VDDA3P3_2" pad="4"/>
-<connect gate="G$1" pin="VDD_SDIO_NC" pad="26"/>
-<connect gate="G$1" pin="XTAL_N_NC" pad="44"/>
-<connect gate="G$1" pin="XTAL_P_NC" pad="45"/>
 </connects>
 <technologies>
 <technology name=""/>

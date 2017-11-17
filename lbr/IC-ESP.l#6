@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1712,62 +1712,6 @@ Source: www.silabs.com .. CP2101.pdf</description>
 <wire x1="2.66" y1="5.815" x2="2.66" y2="4.545" width="0.1524" layer="21"/>
 <pad name="09" x="1.39" y="5.18" drill="0.8" diameter="1.4224" shape="octagon" rot="R90"/>
 </package>
-<package name="48P-7X7">
-<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.254" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.254" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.254" layer="21"/>
-<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.254" layer="21"/>
-<smd name="31" x="3.75" y="0.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="30" x="3.75" y="-0.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="29" x="3.75" y="-0.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="28" x="3.75" y="-1.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="27" x="3.75" y="-1.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="26" x="3.75" y="-2.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="25" x="3.75" y="-2.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="32" x="3.75" y="0.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="33" x="3.75" y="1.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="34" x="3.75" y="1.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="35" x="3.75" y="2.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="36" x="3.75" y="2.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="18" x="-0.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="19" x="0.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="20" x="0.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="21" x="1.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="22" x="1.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="23" x="2.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="24" x="2.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="17" x="-0.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="16" x="-1.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="15" x="-1.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="14" x="-2.25" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="13" x="-2.75" y="-3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="6" x="-3.75" y="0.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="7" x="-3.75" y="-0.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="8" x="-3.75" y="-0.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="9" x="-3.75" y="-1.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="10" x="-3.75" y="-1.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="11" x="-3.75" y="-2.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="12" x="-3.75" y="-2.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="5" x="-3.75" y="0.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="4" x="-3.75" y="1.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="3" x="-3.75" y="1.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="2" x="-3.75" y="2.25" dx="1.27" dy="0.25" layer="1"/>
-<smd name="1" x="-3.75" y="2.75" dx="1.27" dy="0.25" layer="1"/>
-<smd name="43" x="-0.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="42" x="0.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="41" x="0.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="40" x="1.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="39" x="1.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="38" x="2.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="37" x="2.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="44" x="-0.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="45" x="-1.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="46" x="-1.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="47" x="-2.25" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="48" x="-2.75" y="3.75" dx="1.27" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$49" x="0" y="0" dx="5" dy="5" layer="1"/>
-<circle x="-2.75" y="2.75" radius="0.353553125" width="0.254" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ESP-01">
@@ -2491,61 +2435,6 @@ ALT_UART-IO13, IO15</text>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-</symbol>
-<symbol name="ESP32-PICO">
-<pin name="VDDA" x="-20.32" y="15.24" length="middle"/>
-<pin name="LNA_IN" x="-20.32" y="12.7" length="middle"/>
-<pin name="VDDA3P3_1" x="-20.32" y="10.16" length="middle"/>
-<pin name="VDDA3P3_2" x="-20.32" y="7.62" length="middle"/>
-<pin name="SENSOR_VP" x="-20.32" y="5.08" length="middle"/>
-<pin name="SENSOR_CAPP" x="-20.32" y="2.54" length="middle"/>
-<pin name="SENSOR_CAPN" x="-20.32" y="0" length="middle"/>
-<pin name="SENSOR_VN" x="-20.32" y="-2.54" length="middle"/>
-<pin name="EN" x="-20.32" y="-5.08" length="middle"/>
-<pin name="IO34" x="-20.32" y="-7.62" length="middle"/>
-<pin name="IO35" x="-20.32" y="-10.16" length="middle"/>
-<pin name="IO32" x="-20.32" y="-12.7" length="middle"/>
-<pin name="IO33" x="-5.08" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO25" x="-2.54" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO26" x="0" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO27" x="2.54" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO14" x="5.08" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO12" x="7.62" y="-27.94" length="middle" rot="R90"/>
-<pin name="VDD3P3_RTC" x="10.16" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO13" x="12.7" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO15" x="15.24" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO2" x="17.78" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO0" x="20.32" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO4" x="22.86" y="-27.94" length="middle" rot="R90"/>
-<pin name="IO16(FLASH_CS)" x="38.1" y="-12.7" length="middle" rot="R180"/>
-<pin name="VDD_SDIO_NC" x="38.1" y="-10.16" length="middle" rot="R180"/>
-<pin name="IO17(FLASH_SD0)" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="SD2/IO9" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="SD3/IO10" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="CMD(FLASH_SD2)" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="CLK(FLASH_CLK)" x="38.1" y="2.54" length="middle" rot="R180"/>
-<pin name="SD0(FLASH_SD3)" x="38.1" y="5.08" length="middle" rot="R180"/>
-<pin name="SD1(FLASH_SD1)" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="IO5" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="IO18" x="38.1" y="12.7" length="middle" rot="R180"/>
-<pin name="IO23" x="38.1" y="15.24" length="middle" rot="R180"/>
-<pin name="VDD3P3_CPU" x="22.86" y="27.94" length="middle" rot="R270"/>
-<pin name="IO19" x="20.32" y="27.94" length="middle" rot="R270"/>
-<pin name="U0RXD" x="15.24" y="27.94" length="middle" rot="R270"/>
-<pin name="U0TXD" x="12.7" y="27.94" length="middle" rot="R270"/>
-<pin name="IO21" x="10.16" y="27.94" length="middle" rot="R270"/>
-<pin name="VDDA2" x="7.62" y="27.94" length="middle" rot="R270"/>
-<pin name="XTAL_N_NC" x="5.08" y="27.94" length="middle" rot="R270"/>
-<pin name="XTAL_P_NC" x="2.54" y="27.94" length="middle" rot="R270"/>
-<pin name="VDDA3" x="0" y="27.94" length="middle" rot="R270"/>
-<pin name="CAP2_NC" x="-2.54" y="27.94" length="middle" rot="R270"/>
-<pin name="CAP1_NC" x="-5.08" y="27.94" length="middle" rot="R270"/>
-<pin name="IO22" x="17.78" y="27.94" length="middle" rot="R270"/>
-<wire x1="-15.24" y1="22.86" x2="33.02" y2="22.86" width="0.254" layer="94"/>
-<wire x1="33.02" y1="22.86" x2="33.02" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<pin name="GND" x="-10.16" y="27.94" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3638,69 +3527,6 @@ ALT_UART-IO13, IO15</text>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ESP32-PICO">
-<gates>
-<gate name="G$1" symbol="ESP32-PICO" x="-7.62" y="0"/>
-</gates>
-<devices>
-<device name="" package="48P-7X7">
-<connects>
-<connect gate="G$1" pin="CAP1_NC" pad="48"/>
-<connect gate="G$1" pin="CAP2_NC" pad="47"/>
-<connect gate="G$1" pin="CLK(FLASH_CLK)" pad="31"/>
-<connect gate="G$1" pin="CMD(FLASH_SD2)" pad="30"/>
-<connect gate="G$1" pin="EN" pad="9"/>
-<connect gate="G$1" pin="GND" pad="P$49"/>
-<connect gate="G$1" pin="IO0" pad="23"/>
-<connect gate="G$1" pin="IO12" pad="18"/>
-<connect gate="G$1" pin="IO13" pad="20"/>
-<connect gate="G$1" pin="IO14" pad="17"/>
-<connect gate="G$1" pin="IO15" pad="21"/>
-<connect gate="G$1" pin="IO16(FLASH_CS)" pad="25"/>
-<connect gate="G$1" pin="IO17(FLASH_SD0)" pad="27"/>
-<connect gate="G$1" pin="IO18" pad="35"/>
-<connect gate="G$1" pin="IO19" pad="38"/>
-<connect gate="G$1" pin="IO2" pad="22"/>
-<connect gate="G$1" pin="IO21" pad="42"/>
-<connect gate="G$1" pin="IO22" pad="39"/>
-<connect gate="G$1" pin="IO23" pad="36"/>
-<connect gate="G$1" pin="IO25" pad="14"/>
-<connect gate="G$1" pin="IO26" pad="15"/>
-<connect gate="G$1" pin="IO27" pad="16"/>
-<connect gate="G$1" pin="IO32" pad="12"/>
-<connect gate="G$1" pin="IO33" pad="13"/>
-<connect gate="G$1" pin="IO34" pad="10"/>
-<connect gate="G$1" pin="IO35" pad="11"/>
-<connect gate="G$1" pin="IO4" pad="24"/>
-<connect gate="G$1" pin="IO5" pad="34"/>
-<connect gate="G$1" pin="LNA_IN" pad="2"/>
-<connect gate="G$1" pin="SD0(FLASH_SD3)" pad="32"/>
-<connect gate="G$1" pin="SD1(FLASH_SD1)" pad="33"/>
-<connect gate="G$1" pin="SD2/IO9" pad="28"/>
-<connect gate="G$1" pin="SD3/IO10" pad="29"/>
-<connect gate="G$1" pin="SENSOR_CAPN" pad="7"/>
-<connect gate="G$1" pin="SENSOR_CAPP" pad="6"/>
-<connect gate="G$1" pin="SENSOR_VN" pad="8"/>
-<connect gate="G$1" pin="SENSOR_VP" pad="5"/>
-<connect gate="G$1" pin="U0RXD" pad="40"/>
-<connect gate="G$1" pin="U0TXD" pad="41"/>
-<connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
-<connect gate="G$1" pin="VDD3P3_RTC" pad="19"/>
-<connect gate="G$1" pin="VDDA" pad="1"/>
-<connect gate="G$1" pin="VDDA2" pad="43"/>
-<connect gate="G$1" pin="VDDA3" pad="46"/>
-<connect gate="G$1" pin="VDDA3P3_1" pad="3"/>
-<connect gate="G$1" pin="VDDA3P3_2" pad="4"/>
-<connect gate="G$1" pin="VDD_SDIO_NC" pad="26"/>
-<connect gate="G$1" pin="XTAL_N_NC" pad="44"/>
-<connect gate="G$1" pin="XTAL_P_NC" pad="45"/>
 </connects>
 <technologies>
 <technology name=""/>
