@@ -1,2 +1,6 @@
-* gerb274x-mech-noname - no output names or values, only tplace and bplace
-* gerb274x-mech - output names
+# File list
+* excellon.cam - this one is to generated standard MACHINE read drill file, must have.  File format .drd and .dri will be genreated. This is for drill
+
+Use the following file to generate main PCB layers, either one must use 
+* gerb274x-mech - output all, inlcuding names, values, t/b place silk print.
+* gerb274x-mech-noname - only tplace and bplace silk print, no output names or values silk print.
