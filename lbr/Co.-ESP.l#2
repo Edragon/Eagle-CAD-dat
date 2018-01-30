@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1788,59 +1788,59 @@ Source: www.silabs.com .. CP2101.pdf</description>
 </polygon>
 </package>
 <package name="ESP-12F-PROG">
-<wire x1="8" y1="16" x2="8" y2="10.2" width="0.127" layer="21"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
-<wire x1="-8" y1="-8" x2="-8" y2="10.2" width="0.127" layer="21"/>
-<wire x1="-8" y1="10.2" x2="-8" y2="16" width="0.127" layer="21"/>
-<wire x1="-8" y1="16" x2="8" y2="16" width="0.127" layer="21"/>
-<wire x1="-8" y1="10.2" x2="8" y2="10.2" width="0.127" layer="21"/>
-<wire x1="8" y1="10.2" x2="8" y2="-8" width="0.127" layer="21"/>
-<wire x1="-4.8" y1="10.4" x2="-4.8" y2="15.3" width="0.6096" layer="21"/>
-<wire x1="-4.8" y1="15.3" x2="-3.9" y2="15.3" width="0.6096" layer="21"/>
-<wire x1="-3.9" y1="15.3" x2="-3.9" y2="11.6" width="0.6096" layer="21"/>
-<wire x1="-3.9" y1="11.6" x2="-2.9" y2="11.6" width="0.6096" layer="21"/>
-<wire x1="-2.9" y1="11.6" x2="-2.9" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="-2.9" y1="15.2" x2="-1.7" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="-1.7" y1="15.2" x2="-1.7" y2="11.6" width="0.6096" layer="21"/>
-<wire x1="-1.7" y1="11.6" x2="-0.5" y2="11.6" width="0.6096" layer="21"/>
-<wire x1="-0.5" y1="11.6" x2="-0.5" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="-0.5" y1="15.2" x2="0.6" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="0.6" y1="15.2" x2="0.6" y2="11.7" width="0.6096" layer="21"/>
-<wire x1="0.6" y1="11.7" x2="1.7" y2="11.7" width="0.6096" layer="21"/>
-<wire x1="1.7" y1="11.7" x2="1.7" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="1.7" y1="15.2" x2="5.7" y2="15.2" width="0.6096" layer="21"/>
-<wire x1="-4.8" y1="10.3" x2="-4.8" y2="9.7" width="0.6096" layer="21"/>
-<wire x1="-4.8" y1="9.7" x2="1.7" y2="9.7" width="0.6096" layer="21"/>
-<text x="-2.63" y="8.21" size="0.6096" layer="21" font="vector">ESP - 12</text>
-<text x="-5.54" y="-6.11" size="0.8128" layer="27" font="vector" ratio="12">&gt;Value</text>
-<text x="2.4" y="-6.1" size="0.8128" layer="25" font="vector" ratio="12">&gt;Name</text>
-<dimension x1="-8" y1="-8" x2="8" y2="-8" x3="0" y3="-13.2" textsize="1.27" layer="51" dtype="horizontal"/>
-<dimension x1="-8" y1="-8" x2="-8" y2="16" x3="-10.9" y3="4" textsize="1.778" layer="51" dtype="vertical"/>
-<dimension x1="-8" y1="-8" x2="-6.5" y2="-7.2" x3="-7.25" y3="-9.7" textsize="1.778" layer="51" dtype="horizontal"/>
-<dimension x1="8" y1="-8" x2="6.5" y2="-7.4" x3="7.25" y3="-10.5" textsize="1.778" layer="51" dtype="horizontal"/>
-<dimension x1="8" y1="-8" x2="8" y2="-7" x3="13" y3="-7.5" textsize="1.778" layer="51" dtype="horizontal"/>
-<pad name="1" x="-7.17" y="7.6" drill="0.8" shape="offset" rot="R180"/>
-<pad name="2" x="-7.17" y="5.6" drill="0.8" shape="offset" rot="R180"/>
-<pad name="3" x="-7.17" y="3.6" drill="0.8" shape="offset" rot="R180"/>
-<pad name="4" x="-7.17" y="1.6" drill="0.8" shape="offset" rot="R180"/>
-<pad name="5" x="-7.17" y="-0.4" drill="0.8" shape="offset" rot="R180"/>
-<pad name="6" x="-7.17" y="-2.4" drill="0.8" shape="offset" rot="R180"/>
-<pad name="7" x="-7.17" y="-4.4" drill="0.8" shape="offset" rot="R180"/>
-<pad name="8" x="-7.17" y="-6.4" drill="0.8" shape="offset" rot="R180"/>
-<pad name="9" x="-5.05" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="10" x="-3.05" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="11" x="-1.05" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="12" x="0.95" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="13" x="2.95" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="14" x="4.95" y="-7.62" drill="0.8" shape="offset" rot="R270"/>
-<pad name="15" x="7.17" y="-6.4" drill="0.8" shape="offset"/>
-<pad name="16" x="7.17" y="-4.4" drill="0.8" shape="offset"/>
-<pad name="17" x="7.17" y="-2.4" drill="0.8" shape="offset"/>
-<pad name="18" x="7.17" y="-0.4" drill="0.8" shape="offset"/>
-<pad name="19" x="7.17" y="1.6" drill="0.8" shape="offset"/>
-<pad name="20" x="7.17" y="3.6" drill="0.8" shape="offset"/>
-<pad name="21" x="7.17" y="5.6" drill="0.8" shape="offset"/>
-<pad name="22" x="7.17" y="7.6" drill="0.8" shape="offset"/>
+<wire x1="8.06" y1="16.5" x2="8.06" y2="10.7" width="0.127" layer="21"/>
+<wire x1="8.06" y1="-7.5" x2="-7.94" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-7.94" y1="-7.5" x2="-7.94" y2="10.7" width="0.127" layer="21"/>
+<wire x1="-7.94" y1="10.7" x2="-7.94" y2="16.5" width="0.127" layer="21"/>
+<wire x1="-7.94" y1="16.5" x2="8.06" y2="16.5" width="0.127" layer="21"/>
+<wire x1="-7.94" y1="10.7" x2="8.06" y2="10.7" width="0.127" layer="21"/>
+<wire x1="8.06" y1="10.7" x2="8.06" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-4.74" y1="10.9" x2="-4.74" y2="15.8" width="0.6096" layer="21"/>
+<wire x1="-4.74" y1="15.8" x2="-3.84" y2="15.8" width="0.6096" layer="21"/>
+<wire x1="-3.84" y1="15.8" x2="-3.84" y2="12.1" width="0.6096" layer="21"/>
+<wire x1="-3.84" y1="12.1" x2="-2.84" y2="12.1" width="0.6096" layer="21"/>
+<wire x1="-2.84" y1="12.1" x2="-2.84" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="-2.84" y1="15.7" x2="-1.64" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="-1.64" y1="15.7" x2="-1.64" y2="12.1" width="0.6096" layer="21"/>
+<wire x1="-1.64" y1="12.1" x2="-0.44" y2="12.1" width="0.6096" layer="21"/>
+<wire x1="-0.44" y1="12.1" x2="-0.44" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="-0.44" y1="15.7" x2="0.66" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="0.66" y1="15.7" x2="0.66" y2="12.2" width="0.6096" layer="21"/>
+<wire x1="0.66" y1="12.2" x2="1.76" y2="12.2" width="0.6096" layer="21"/>
+<wire x1="1.76" y1="12.2" x2="1.76" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="1.76" y1="15.7" x2="5.76" y2="15.7" width="0.6096" layer="21"/>
+<wire x1="-4.74" y1="10.8" x2="-4.74" y2="10.2" width="0.6096" layer="21"/>
+<wire x1="-4.74" y1="10.2" x2="1.76" y2="10.2" width="0.6096" layer="21"/>
+<text x="-2.57" y="8.61" size="0.6096" layer="21" font="vector">ESP - 12</text>
+<text x="-5.48" y="-5.71" size="0.8128" layer="27" font="vector" ratio="12">&gt;Value</text>
+<text x="2.46" y="-5.7" size="0.8128" layer="25" font="vector" ratio="12">&gt;Name</text>
+<dimension x1="-7.94" y1="-7.5" x2="8.06" y2="-7.5" x3="0.06" y3="-12.7" textsize="1.27" layer="51" dtype="horizontal"/>
+<dimension x1="-7.94" y1="-7.5" x2="-7.94" y2="16.5" x3="-10.84" y3="4.5" textsize="1.778" layer="51" dtype="vertical"/>
+<dimension x1="-7.94" y1="-7.5" x2="-6.44" y2="-6.7" x3="-7.19" y3="-9.2" textsize="1.778" layer="51" dtype="horizontal"/>
+<dimension x1="8.06" y1="-7.5" x2="6.56" y2="-6.9" x3="7.31" y3="-10" textsize="1.778" layer="51" dtype="horizontal"/>
+<dimension x1="8.06" y1="-7.5" x2="8.06" y2="-6.6" x3="13.06" y3="-7.05" textsize="1.778" layer="51" dtype="horizontal"/>
+<pad name="1" x="-7.11" y="8" drill="0.8" shape="offset" rot="R180"/>
+<pad name="2" x="-7.11" y="6" drill="0.8" shape="offset" rot="R180"/>
+<pad name="3" x="-7.11" y="4" drill="0.8" shape="offset" rot="R180"/>
+<pad name="4" x="-7.11" y="2" drill="0.8" shape="offset" rot="R180"/>
+<pad name="5" x="-7.11" y="0" drill="0.8" shape="offset" rot="R180"/>
+<pad name="6" x="-7.11" y="-2" drill="0.8" shape="offset" rot="R180"/>
+<pad name="7" x="-7.11" y="-4" drill="0.8" shape="offset" rot="R180"/>
+<pad name="8" x="-7.11" y="-6" drill="0.8" shape="offset" rot="R180"/>
+<pad name="9" x="-4.99" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="10" x="-2.99" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="11" x="-0.99" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="12" x="1.01" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="13" x="3.01" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="14" x="5.01" y="-7.12" drill="0.8" shape="offset" rot="R270"/>
+<pad name="15" x="7.43" y="-6" drill="0.8" shape="offset"/>
+<pad name="16" x="7.43" y="-4" drill="0.8" shape="offset"/>
+<pad name="17" x="7.43" y="-2" drill="0.8" shape="offset"/>
+<pad name="18" x="7.43" y="0" drill="0.8" shape="offset"/>
+<pad name="19" x="7.43" y="2" drill="0.8" shape="offset"/>
+<pad name="20" x="7.43" y="4" drill="0.8" shape="offset"/>
+<pad name="21" x="7.43" y="6" drill="0.8" shape="offset"/>
+<pad name="22" x="7.43" y="8" drill="0.8" shape="offset"/>
 </package>
 </packages>
 <symbols>
@@ -3308,6 +3308,30 @@ ALT_UART-IO13, IO15</text>
 </technologies>
 </device>
 <device name="PROG" package="ESP-12F-PROG">
+<connects>
+<connect gate="1" pin="ADC" pad="2"/>
+<connect gate="1" pin="CLK" pad="14"/>
+<connect gate="1" pin="CS" pad="9"/>
+<connect gate="1" pin="EN" pad="3"/>
+<connect gate="1" pin="GND" pad="15"/>
+<connect gate="1" pin="IO0" pad="18"/>
+<connect gate="1" pin="IO10|19" pad="12"/>
+<connect gate="1" pin="IO12|10|MI|PWM0" pad="6"/>
+<connect gate="1" pin="IO13|12|MO|" pad="7"/>
+<connect gate="1" pin="IO14|9|CLK|PWM2" pad="5"/>
+<connect gate="1" pin="IO15|13|CS|PWM1" pad="16"/>
+<connect gate="1" pin="IO16|8|WAKE" pad="4"/>
+<connect gate="1" pin="IO2|TXD1" pad="17"/>
+<connect gate="1" pin="IO4|16|IIC|PWM3" pad="19"/>
+<connect gate="1" pin="IO5|24|IIC" pad="20"/>
+<connect gate="1" pin="IO9|18" pad="11"/>
+<connect gate="1" pin="MISO" pad="10"/>
+<connect gate="1" pin="MOSI" pad="13"/>
+<connect gate="1" pin="RST" pad="1"/>
+<connect gate="1" pin="RXD0" pad="21"/>
+<connect gate="1" pin="TXD0" pad="22"/>
+<connect gate="1" pin="VCC" pad="8"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
